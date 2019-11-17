@@ -2,9 +2,16 @@
   <v-app>
     <v-app-bar app>
       <v-toolbar-title class="headline text-uppercase">
-        <span><router-link to="/">TimesTable Quiz</router-link></span>
+        TimesTable Quiz
       </v-toolbar-title>
       <v-spacer></v-spacer>
+
+      <v-toolbar-items>
+        <v-btn text to="/">Home</v-btn>
+        <v-btn text to="/quiz">New Quiz</v-btn>
+        <v-btn text to="/leaderboard">Leaderboard</v-btn>
+      </v-toolbar-items>
+
     </v-app-bar>
 
     <v-content>

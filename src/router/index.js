@@ -3,8 +3,9 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Quiz from '../views/Quiz.vue'
 import Results from '../components/Results.vue'
+import Leaderboard from '../components/Leaderboard.vue'
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
 const routes = [
   {
@@ -21,6 +22,11 @@ const routes = [
     path: '/results',
     name: 'results',
     component: Results
+  },
+  {
+    path: '/leaderboard',
+    name: 'leaderboard',
+    component: Leaderboard
   }
 ];
 

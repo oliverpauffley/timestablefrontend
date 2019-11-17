@@ -1,10 +1,14 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+    <p class="display-3 text-center"> Welcome to The TimesTables Quiz </p>
     <v-spacer></v-spacer>
-    Welcome to The TimesTables App
-    <v-spacer></v-spacer>
-    click here for a new question <router-link to="Quiz">Question</router-link>
+    <p class="body-1 text-center"> You will have 2 minutes to answer as many timestables as you can. The quicker you answer,
+    the more points you will receive. Good Luck</p>
+    <v-row align="center">
+      <v-col class="text-center">
+    <v-btn to="/quiz" x-large> Start </v-btn>
+        </v-col>
+      </v-row>
   </div>
 </template>
 
